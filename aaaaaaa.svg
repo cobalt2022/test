@@ -12,6 +12,6 @@
 
   <!-- Common use case: embed HTML text into SVG -->
   <foreignObject x="20" y="20" width="160" height="160">
- <iframe src="https://cobalt.io/"><iframe>
+ <iframe src="https://cobalt.io/"></iframe>
   </foreignObject>
 </svg>
