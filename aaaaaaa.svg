@@ -1,6 +1,17 @@
-<?xml version="1.0" standalone="yes"?>
-<!DOCTYPE foo [ <!ENTITY fetch SYSTEM "file:///etc/passwd">]>
-<svg width="128px" height="128px" xmlns="http://www.w3.org/2000/svg"
-xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-<text font-size=“23" x=“8" y=“28">&fetch;</text>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    div {
+      color: white;
+      font: 18px serif;
+      height: 100%;
+      overflow: auto;
+    }
+  </style>
+
+  <polygon points="5,5 195,10 185,185 10,195" />
+
+  <!-- Common use case: embed HTML text into SVG -->
+  <foreignObject x="20" y="20" width="160" height="160">
+ <iframe src="https://cobalt.io/">
+  </foreignObject>
 </svg>
