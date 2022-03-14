@@ -1,7 +1,8 @@
- <svg width="200" height="200"
-        xmlns="http://www.w3.org/2000/svg">       
-        <image 
-            href=
-"https://qicb1jxocu7q4ypfs3gvlsrkpbv2jr.burpcollaborator.net/ef83c6ace0df2c4569ed.svg" 
-            height="200" width="200"/>
-    </svg>
+<svg width="1000" height="1000">
+  <circle cx="100" cy="500" r="400"
+  stroke="green" stroke-width="4" fill="yellow" />
+Sorry, your browser does not support inline SVG.
+<foreignobject class="node" x="46" y="22" width="100" height="100">
+                <div style="border:1px green solid">I'm a div inside a SVG.</div>                
+            </foreignobject>
+</svg>
